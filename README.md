@@ -119,17 +119,10 @@ for ent in doc.ents:
 # 800 TND → PRICE
 ```
 
-## 📊 Amélioration Continue
-
-Pour améliorer le modèle:
-1. Ajouter plus d'exemples dans `BILINGUAL_EXAMPLES` (1_annotate_data.py)
-2. Augmenter `max_steps` dans la config
-3. Ajouter de nouvelles entités si nécessaire
-
 ## 📄 Licence
 
 MIT License
 
 ## 👤 Auteur
 
-Votre Nom - [@votre-username](https://github.com/votre-username)
+Mohamed Amine Mekki- [@mekkiamine](https://github.com/mekkiamine)

@@ -1,0 +1,169 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>NER Model - Visualisations</title>
+            <style>
+                body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 40px;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                }
+                .container {
+                    background: white;
+                    border-radius: 10px;
+                    padding: 40px;
+                    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+                }
+                h1 {
+                    color: #2C3E50;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .card {
+                    border: 2px solid #ecf0f1;
+                    border-radius: 8px;
+                    padding: 20px;
+                    margin: 20px 0;
+                    transition: transform 0.2s, box-shadow 0.2s;
+                }
+                .card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+                }
+                .card a {
+                    color: #3498db;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .card a:hover {
+                    color: #2980b9;
+                }
+                .legend {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    gap: 15px;
+                    margin-top: 30px;
+                }
+                .legend-item {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 5px;
+                    background: #f8f9fa;
+                }
+                .legend-color {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>🏠 NER Model - Visualisations Immobilières</h1>
+                <p style="text-align: center; color: #7F8C8D;">
+                    Modèle bilingue (Français/Anglais) pour l'extraction d'entités immobilières
+                </p>
+                
+                <h2>📊 Visualisations Disponibles:</h2>
+        
+                <div class="card">
+                    <a href="visualization_requête_complexe_française.html" target="_blank">
+                        📄 Requête Complexe Française
+                    </a>
+                    <p style="color: #7F8C8D; margin: 10px 0 0 0;">
+                        Cliquez pour voir la visualisation interactive
+                    </p>
+                </div>
+            
+                <div class="card">
+                    <a href="visualization_requête_complexe_anglaise.html" target="_blank">
+                        📄 Requête Complexe Anglaise
+                    </a>
+                    <p style="color: #7F8C8D; margin: 10px 0 0 0;">
+                        Cliquez pour voir la visualisation interactive
+                    </p>
+                </div>
+            
+                <div class="card">
+                    <a href="visualization_requête_mixte_bilingue.html" target="_blank">
+                        📄 Requête Mixte Bilingue
+                    </a>
+                    <p style="color: #7F8C8D; margin: 10px 0 0 0;">
+                        Cliquez pour voir la visualisation interactive
+                    </p>
+                </div>
+            
+                <div class="card">
+                    <a href="visualization_cas_avec_tous_les_labels.html" target="_blank">
+                        📄 Cas Avec Tous Les Labels
+                    </a>
+                    <p style="color: #7F8C8D; margin: 10px 0 0 0;">
+                        Cliquez pour voir la visualisation interactive
+                    </p>
+                </div>
+            
+                <h2>🎨 Légende des Entités:</h2>
+                <div class="legend">
+        
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #FF6B6B;"></div>
+                    <strong>BEDS</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #4ECDC4;"></div>
+                    <strong>BATHS</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #45B7D1;"></div>
+                    <strong>AREA</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #FFA07A;"></div>
+                    <strong>PRICE</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #98D8C8;"></div>
+                    <strong>LOCATION</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #F7DC6F;"></div>
+                    <strong>TYPE</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #BB8FCE;"></div>
+                    <strong>TRANSACTION</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #85C1E2;"></div>
+                    <strong>AMENITY</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ABEBC6;"></div>
+                    <strong>GARAGE</strong>
+                </div>
+            
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #F8B4D9;"></div>
+                    <strong>CONDITION</strong>
+                </div>
+            
+                </div>
+            </div>
+        </body>
+        </html>
+        
